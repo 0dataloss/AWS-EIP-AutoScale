@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:DescribeMovingAddresses",
+                "ec2:DescribeAddresses",
+                "ec2:DeleteTags",
+                "ec2:DescribeTags",
+                "ec2:CreateTags",
+                "ec2:AssociateAddress"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
